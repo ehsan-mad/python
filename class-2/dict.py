@@ -21,3 +21,8 @@ for k in gg.keys():
     
 print(gg["Rahim "])
 print(a[1])
+
+nums=list(range(0,11))
+
+d_comp={i:"Even" if i%2 else "Odd" for i in nums}
+print(d_comp)
