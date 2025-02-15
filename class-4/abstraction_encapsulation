@@ -1,0 +1,27 @@
+#encapsulation
+class Grand:
+    def __init__(self):
+        self.__name="kochu" #private mean __ double underscore class er vitor accesible class er baire call kra jai na
+        
+        self._age=18 #protected mean _ underscore class er vitor accessible 
+        
+    def greet(self):
+        print("this is grand")
+        
+        
+class Father(Grand):
+    def greet(self):    #SAME METHOD CALLING
+        print(f"this is father {self._Grand__name} Age {self._age}")
+class son(Father):
+    def greet(self):  #SAME METHOD CALLING
+        print("This is son")
+        
+G=Grand()
+F=Father()
+S=son()
+G.greet()                
+F.greet()
+S.greet()
+
+
+#abstraction  -> user er theke data hide or any type mechanism that is happening behind the scene like calculation pressing a button
