@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Harry Potter",
+        "author": "J.K. Rowling",
+        "isbn": "123456",
+        "genre": "Fantasy",
+        "price": "20",
+        "stock": "5"
+    },
+    {
+        "title": "sisimpur",
+        "author": "susu",
+        "isbn": "1234",
+        "genre": "hah",
+        "price": "23142",
+        "stock": "12"
+    },
+    {
+        "title": "wow",
+        "author": "wowow",
+        "isbn": "23",
+        "genre": "jj",
+        "price": "234",
+        "stock": "22"
+    },
+    {
+        "title": "Hello Kitty",
+        "author": "lol",
+        "isbn": "1235",
+        "genre": "gg",
+        "price": "6000",
+        "stock": "22"
+    }
+]
